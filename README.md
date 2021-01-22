@@ -339,7 +339,7 @@ investigation:
       duration: "166ns"
  
 ```
-![Cache](./images/graphic.jpg)
+![Cache](./images/graphic.jpeg)
  
 ### Рекомендации
  
