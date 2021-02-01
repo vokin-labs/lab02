@@ -36,9 +36,9 @@ std::size_t Experiment::Run(Experiment::TravelOrder order) {
     } else if (order == Reverse) {
       std::size_t index{bufferSize};
       for (std::size_t j = 0; j < bufferSize; j += CacheLineSize) {
-        index -= CacheLineSize;
         auto start = std::chrono::high_resolution_clock::now();
         k = buffer[index];
+        index -= CacheLineSize;
         auto stop = std::chrono::high_resolution_clock::now();
         commonDuration +=
             std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start)
