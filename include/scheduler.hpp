@@ -1,6 +1,4 @@
-//
-// Created by vokin-labs on 21.01.2021.
-//
+// Copyright 2021 vokin-labs <vokinsilok2305@mail.ru>
 
 #ifndef LAB02_SCHEDULER_HPP
 #define LAB02_SCHEDULER_HPP

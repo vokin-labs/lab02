@@ -1,10 +1,8 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2021 vokin-labs <vokinsilok2305@mail.ru>
 
-#include <experiment.hpp>
-
-#include <experiment.hpp>
 #include <chrono>
 #include <config.hpp>
+#include <experiment.hpp>
 #include <stdexcept>
 #include <string>
 

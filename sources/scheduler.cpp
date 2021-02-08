@@ -1,10 +1,8 @@
-//
-// Created by ubuntu on 21.01.2021.
-//
+// Copyright 2021 vokin-labs <vokinsilok2305@mail.ru>
 
+#include <config.hpp>
 #include <experiment.hpp>
 #include <scheduler.hpp>
-#include <config.hpp>
 #include <vector>
 
 Scheduler::Scheduler(const std::vector<std::size_t> &cacheSizes) {

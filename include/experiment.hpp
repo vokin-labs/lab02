@@ -1,4 +1,4 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2021 vokin-labs <vokinsilok2305@mail.ru>
 
 #ifndef INCLUDE_HEADER_HPP_
 #define INCLUDE_HEADER_HPP_
@@ -22,5 +22,4 @@ class Experiment {
   std::string travelOrderName;
 };
 
-
-#endif // INCLUDE_HEADER_HPP_
+#endif  // INCLUDE_HEADER_HPP_

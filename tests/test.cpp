@@ -1,14 +1,15 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2021 vokin-labs <vokinsilok2305@mail.ru>
 
 #include <gtest/gtest.h>
 
-#include <experiment.hpp>
-#include <scheduler.hpp>
 #include <config.hpp>
+#include <experiment.hpp>
 #include <iostream>
+#include <scheduler.hpp>
 
 TEST(Example, EmptyTest) {
   Scheduler scheduler(CacheSizes);
+
   scheduler.WarnUp();
   scheduler.RunAll(Experiment::TravelOrder::Direct);
   scheduler.PrintResult(std::cout);
