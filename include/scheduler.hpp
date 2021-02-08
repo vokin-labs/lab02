@@ -1,5 +1,5 @@
 //
-// Created by ubuntu on 21.01.2021.
+// Created by vokin-labs on 21.01.2021.
 //
 
 #ifndef LAB02_SCHEDULER_HPP
